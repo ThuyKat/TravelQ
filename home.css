@@ -1,0 +1,343 @@
+/* imported the google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@0,300;0,600;1,200&display=swap');
+/* these rules apply to the entire page  */
+
+*{
+    list-style: none;
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.wrapperrelative{
+    margin:auto 0;
+    padding:10px;
+    width:100% ;
+    background:#1c6660;
+    position:relative;
+}
+
+/*style all li, a and button*/
+li, a, button{
+  font-family: "Montserrat" , sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  
+}
+/*style the search bar and search icon*/
+
+*/
+form{
+    margin:auto 0;    
+}
+input{
+    width:60%;
+}
+#search{   
+    height:30px;
+    font-size:16px;
+    background:transparent;
+    color: aliceblue;
+}
+#search:hover{
+    border:3px solid gray;
+    opacity: 1;
+}
+#searchicon{
+    
+    height:30px;
+    background-color:transparent;
+    border:none;
+}
+::placeholder{
+    color:lightgray;
+    opacity:1;
+}
+input {
+border: none;
+background-color: transparent;
+resize: none;
+outline: none;
+}
+            /*complete for search bar and search icon*/
+
+/*flex style*/
+nav.flexcontainer{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+nav ul{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+nav a{
+    text-align:center;
+    display:block;
+}
+nav li a:hover{
+    color:yellow;
+    font-size:21px;
+}
+div.listwrap{
+    width:30%;
+}
+div.wrapper_search_bar{
+    width:40%;
+}
+div.logo{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+/*complete for header*/
+/* <!-- image holder -part 2 of the first page --> */
+.container1 {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} 
+/* note for learning - use the object-fit css 
+property that accepts the following values: fill | contain | cover | none | scale-down */
+.centered {
+    position: absolute;
+   top:40%;
+    left:16%;
+    
+/*    transform: translate(-50%, -50%);*/
+    font-size: 70px;
+    font-family:"Montserrat" , sans-serif;
+  }
+/* <!-- about SECTION STARTS --> */
+
+  .about-header {
+    background-color: #1c6660;
+    border-left: 6px ;
+    padding: 10px;
+    font-size: 50px;
+  }
+  .about-header p{
+      color:aliceblue;
+      font-family: 'Pacifico', cursive; 
+  }
+
+  .aboutinfo-container {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.aboutinfo-container div{
+    position:absolute;
+    top:20px;
+    left:20px;
+    right:20px;
+   
+    font-size: 30px;
+    font-family:"Montserrat" , sans-serif;
+}
+.aboutinfo-container div p {
+     text-align:justify;
+}
+.container2_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+} 
+
+  /* <!-- Info section of travel stories --> */
+
+  .container{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height:500px;
+    
+}
+img{
+    width:100%;
+    height:100px;
+   
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: justify;
+    height:500px;
+    text-align: left;
+    font-family: "Montserrat" , sans-serif;
+    padding:10px;
+    line-height: 1.5;
+    border-radius: 6px;
+}
+
+.one {
+    top:10px;
+    left:10px;
+    background-color: darkgrey;
+    color: darkblue;
+    width:50%;
+    
+}
+.two,.three{
+    width:22%;
+}
+
+h2{
+    text-decoration: underline;
+}
+.box p{
+    font-size: 20px;
+}
+.box p.date{
+    font-size:15px;   
+}
+
+
+
+.three:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.two:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* fotter stars here  */
+.wrap {
+    display: flex;
+    flex-direction: column;
+    background-color: #1c6660;
+    border-left: 6px ;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+.line p{
+    color: white;      
+    font-size: 32px;
+    font-style: italic;
+
+}
+.fotter {
+    background-color: #1c6660;
+    border-left: 6px ;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;   
+  }
+  .fotter p{
+        color: white;      
+        font-size: 32px;
+        font-style: italic;
+        text-align: center;
+  }
+ button .fa-instagram{
+      background-color: deepskyblue;
+      font-size: 32px;
+      padding: 3px;
+      justify-content: space-around;    
+  }
+  button .fa-facebook{
+    background-color: deepskyblue;
+    font-size: 32px;
+    padding: 3px;
+}
+button .fa-twitter{
+    background-color: deepskyblue;
+    font-size: 32px;
+    padding: 3px;
+}
+.slogan p{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+.lastwrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: auto;
+    
+  }
+.fotter-columns {
+    flex: 1;
+    background-color: whitesmoke;
+    margin: 15px 8px;
+    padding: 30px;
+    border-radius: 6px;
+  }
+ .fotter-columns h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }
+ .fotter-columns p {
+    margin-top: 0;
+  }
+.fotter-columns p span {
+    font-size: 33px;
+  }
+ .fotter-columns ul {
+    margin: 0 0 35px;
+    padding-left: 16px;
+    list-style: none;
+    line-height: 1.8;
+  }
+ .fotter-columns ul li{
+    color: black;
+   }
+.fotter-columns a{
+    color: black;
+}
+.fotter-columns li:hover {
+    background-color: #1c6660;
+    cursor: pointer;
+    color:aliceblue;
+  }
+ p.dancing{
+    font-family: "Dancing Script",sans-serif;
+     line-height: 5;
+     font-size:30px;
+}
+.fotter-columns one{
+    text-align: center;
+}
+
+ 
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+      
+      
+
+}
+

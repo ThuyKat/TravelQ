@@ -1,0 +1,214 @@
+/* imported the google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@0,300;0,600;1,200&display=swap');
+/* these rules apply to the entire page  */
+* {
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style:none;
+}
+.wrapperrelative{
+    margin:auto 0;
+    padding:10px;
+    width:100% ;
+    background:transparent;
+ 
+}
+/* target the list, a  and buttons */
+li, a, button{
+  font-family: "Montserrat" , sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  color: white;
+    
+  
+}
+
+body{
+    background-image: url(images/c-img1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+/* pointer when we go to logo */
+nav.flexcontainer{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    
+    
+}
+nav ul{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+   
+}
+nav a{
+    text-align:center;
+    display:block;
+}
+nav li a:hover{
+    color:coral;
+    font-size:21px;
+}
+div.listwrap{
+    width:50%;
+    padding-top: 40px;   
+}
+
+div.logo{
+    position:relative;
+    left:50px;
+}
+
+/*main part*/
+
+.container-heading{
+    text-align: center;
+    margin:70px;
+    padding:20px;
+    font-family:"Montserrat" , sans-serif;
+    
+}
+
+.container-heading h1{
+    font-size: 70px;
+}
+
+.container-heading p{
+    font-size: 20px;
+    line-height: 2;                   
+}
+.form-horizontal{
+    position:relative;
+    top:-20px;
+    width:50%;
+    left:290px;
+}
+input[type=text] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    width:100%;
+    font-size: 20px;
+
+  }
+
+  input[type=submit] {
+     color: white;
+     background-color: coral;
+     width: 100%;
+     height: 60px;
+     font-size: 20px;
+    }
+
+
+/* fotter stars here  */
+.wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+.line p{
+    color: white;      
+    font-size: 32px;
+    font-style: italic;
+
+}
+.fotter {
+    background-color: transparent;
+   
+    padding: 10px;
+    text-align: justify;
+    display: flex;
+    justify-content: justify;   
+  }
+
+ button .fa-instagram{
+      background-color: deepskyblue;
+      font-size: 32px;
+      padding: 3px;
+   
+  }
+  button .fa-facebook{
+    background-color: deepskyblue;
+    font-size: 32px;
+    padding: 3px;
+}
+button .fa-twitter{
+    background-color: deepskyblue;
+    font-size: 32px;
+    padding: 3px;
+}
+.slogan p{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+.lastwrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: auto;
+    background-color: #51594e;
+    
+  }
+.fotter-columns {
+    flex: 1;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 10px;
+    
+  }
+
+ .fotter-columns ul {
+    margin: 20px auto;
+    padding-left: 16px;
+    list-style: none;
+    line-height: 1.5;
+  }
+ .fotter-columns ul li{
+    color: whitesmoke;
+     letter-spacing:2px;
+   }
+.fotter-columns li:hover {
+    cursor: pointer;
+    color:coral;
+  }
+ p.dancing{
+    font-family: "Dancing Script",sans-serif;
+     line-height: 1.5;
+     font-size:30px;
+     color:whitesmoke;
+     text-align: justify; 
+         
+}
+.fotter-columns one{
+    text-align: justify;  
+    margin-top:20px;
+}
+
+  .form-horizontal label{
+      margin: 20px;
+  }
+
+  .form-horizontal{
+            text-align: center;
+            margin: 50px;
+  }
+.inside-columns one svg{
+   display:block;
+    margin:auto;   
+}
+.clearleft{
+    width:300px;
+    
+}

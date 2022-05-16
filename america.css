@@ -1,0 +1,423 @@
+/* imported the google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@0,300;0,600;1,200&display=swap');
+/* these rules apply to the entire page  */
+
+*{
+    list-style: none;
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.wrapperrelative{
+    margin:auto 0;
+    padding:10px;
+    width:100% ;
+    background:#1c6660;
+    position:relative;
+}
+
+/*style all li, a and button*/
+li, a, button{
+  font-family: "Montserrat" , sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  
+}
+/*style the search bar and search icon*/
+
+*/
+form{
+    margin:auto 0;    
+}
+input{
+    width:60%;
+}
+#search{   
+    height:30px;
+    font-size:16px;
+    background:transparent;
+    color: aliceblue;
+}
+#search:hover{
+    border:3px solid gray;
+    opacity: 1;
+}
+#searchicon{
+    
+    height:30px;
+    background-color:transparent;
+    border:none;
+}
+::placeholder{
+    color:lightgray;
+    opacity:1;
+}
+input {
+border: none;
+background-color: transparent;
+resize: none;
+outline: none;
+}
+            /*complete for search bar and search icon*/
+
+/*flex style*/
+nav.flexcontainer{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+nav ul{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+nav a{
+    text-align:center;
+    display:block;
+}
+nav li a:hover{
+    color:yellow;
+    font-size:21px;
+}
+div.listwrap{
+    width:30%;
+}
+div.wrapper_search_bar{
+    width:40%;
+}
+div.logo{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+/*complete for header*/
+
+
+/* palceholder starts */
+  
+  .wrapsearch {
+    background-color: #1c6660;
+    border-left: 6px ;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.input-icons i {
+    position: absolute;
+    min-width: 50px;   
+}
+.icon{
+    color:aliceblue;
+    text-align: left;
+    padding:4px;
+}
+
+.input-icons {
+    width: 70%;
+    margin-bottom: 10px;
+    position:relative;
+    left:300px;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #1c6660;
+    font-size: 30px;
+}
+div.clear{
+    height:50px;
+    width:100%;
+    background-color: transparent;
+}
+
+ /* placeholder sections ends here */
+
+
+
+  /* <!-- image holder -part 2 of the first page --> */
+
+.container1 {
+    height:800px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+   
+/*     background-color: #1c6660;*/
+}
+
+.container_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+} 
+
+
+
+/* note for learning - use the object-fit css 
+property that accepts the following values: fill | contain | cover | none | scale-down */
+/* Centered text */
+.centered-1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px; 
+   
+  }
+.centered-1 p{
+     color: chocolate;
+}
+.Europeinfo{
+    position:absolute;
+    bottom:-50px;
+    left:10px;
+    line-height: 1.5;
+    text-align: center;
+    
+    
+}
+.Europeinfo ul li{
+    font-size: 30px;
+    color:coral;
+}
+
+
+  /* <!-- image holder ends here  --> */
+/* main section starts here  */
+
+  .FlexContainer {
+    display: flex;
+/*    flex-wrap: nowrap;*/
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+/*      make the items stick from start to end then later style each item*/
+    width: 100%;
+    background-color:#1c6660;
+    height: 100%;
+    overflow: auto; 
+}
+.FlexContainer div {
+    width: 250px;
+    height: 200px;
+    margin: 22px;
+    background: linear-gradient(#195b55, #11403d);
+    flex-grow:1;  
+}
+
+.FlexContainer p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+   
+}
+.FlexContainer p:hover{
+    color: yellow;
+    font-size: 32px;
+}
+/* 4 divs main section end here  */
+
+/* palceholder starts */
+  
+  .wrapsearch {
+    background-color: #1c6660;
+    border-left: 6px ;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.input-icons i {
+    position: absolute;
+    min-width: 50px;
+    
+}
+.icon{
+    color:aliceblue;
+    text-align: left;
+    padding:4px;
+}
+
+.input-icons {
+    width: 70%;
+    margin-bottom: 10px;
+    position:relative;
+    left:300px;
+}
+.input-field {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    background-color: #1c6660;
+    font-size: 30px;
+    position:absolute;
+    left:0%;
+}
+div.clear{
+    height:100px;
+    width:100%;
+/*    background-color: #1c6660;*/
+    
+}
+
+ /* placeholder sections ends here */
+/*blog posts section starts*/
+ .post{
+    display: flex;
+    flex-wrap: wrap;
+    background: #1c6660;
+  padding:20px;
+  text-align: center;
+ 
+  }
+.main {
+    flex:1;
+    padding:20px;
+    text-align: center;
+    border-top: 1px solid white;
+  }
+.sidebar {
+    flex: 2;
+    padding:20px;
+    text-align: center;
+    border-top: 1px solid white;
+  }
+  .main p{
+      color: whitesmoke;
+      font-size: 25px;
+  }
+  .sidebar p{
+      color: white;
+      font-size: 32px;
+  }
+  .sidebar p1{
+      font-size: 20px;
+      color: white;
+  }
+.sidebar a{
+    font-size: 20px;
+}
+.sidebar a:hover{
+    color:yellow;
+}
+
+/* fotter stars here  */
+.wrap {
+    display: flex;
+    flex-direction: column;
+    background-color: #1c6660;
+    border-left: 6px ;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+   
+}
+.line p{
+    color: white;      
+    font-size: 32px;
+    font-style: italic;
+
+}
+.fotter {
+    background-color: #1c6660;
+    border-left: 6px ;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;   
+  }
+  .fotter p{
+        color: white;      
+        font-size: 32px;
+        font-style: italic;
+        text-align: center;
+  }
+ button .fa-instagram{
+      background-color: deepskyblue;
+      font-size: 32px;
+      padding: 3px;
+      justify-content: space-around;    
+  }
+  button .fa-facebook{
+    background-color: deepskyblue;
+    font-size: 32px;
+    padding: 3px;
+}
+button .fa-twitter{
+    background-color: deepskyblue;
+    font-size: 32px;
+    padding: 3px;
+}
+.slogan p{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+.lastwrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: auto;
+    
+  }
+.fotter-columns {
+    flex: 1;
+    background-color: whitesmoke;
+    margin: 15px 8px;
+    padding: 30px;
+    border-radius: 6px;
+  }
+ .fotter-columns h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }
+ .fotter-columns p {
+    margin-top: 0;
+  }
+.fotter-columns p span {
+    font-size: 33px;
+  }
+ .fotter-columns ul {
+    margin: 0 0 35px;
+    padding-left: 16px;
+    list-style: none;
+    line-height: 1.8;
+  }
+ .fotter-columns ul li{
+    color: black;
+   }
+.fotter-columns a{
+    color: black;
+}
+.fotter-columns li:hover {
+    background-color: #1c6660;
+    cursor: pointer;
+    color:aliceblue;
+  }
+ p.dancing{
+    font-family: "Dancing Script",sans-serif;
+     line-height: 5;
+     font-size:30px;
+}
+.fotter-columns one{
+    text-align: center;
+}
+
+
+ 
+
