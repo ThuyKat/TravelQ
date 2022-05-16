@@ -330,5 +330,100 @@ button .fa-twitter{
     text-align: center;
 }
 
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+   
+  
+.wrapperrelative{
+    margin:auto 0;
+    padding:10px;
+    width:100% ;
+    background:#1c6660;
+    position:relative;
+}
 
- 
+/*style all li, a and button*/
+li, a, button{
+  font-family: "Montserrat" , sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  
+}
+/*style the search bar and search icon*/
+
+*/
+form{
+    margin:auto 0;    
+}
+input{
+    width:60%;
+}
+#search{   
+    height:30px;
+    font-size:16px;
+    background:transparent;
+    color: aliceblue;
+}
+#search:hover{
+    border:3px solid gray;
+    opacity: 1;
+}
+#searchicon{
+    
+    height:30px;
+    background-color:transparent;
+    border:none;
+}
+::placeholder{
+    color:lightgray;
+    opacity:1;
+}
+input {
+border: none;
+background-color: transparent;
+resize: none;
+outline: none;
+}
+            /*complete for search bar and search icon*/
+
+/*flex style*/
+nav.flexcontainer{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+nav ul{
+/*    display:flex;*/
+    flex-direction: column;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+nav a{
+    text-align:center;
+    display:block;
+}
+nav li a:hover{
+    color:yellow;
+    
+}
+div.listwrap{
+    width:30%;
+}
+div.wrapper_search_bar{
+    width:35%;
+}
+div.logo{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+/*complete for header*/    
+
+}
+
+
